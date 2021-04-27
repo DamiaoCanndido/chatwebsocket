@@ -1,3 +1,3 @@
-import { app } from "./app";
+import { http } from "./app";
 
-app.listen(3333, () => console.log("SERVIDOR ONLINE!"));
+http.listen(3333, () => console.log("SERVIDOR ONLINE!"));
