@@ -33,4 +33,4 @@ app.use(settingsRouter);
 app.use(usersRouter);
 app.use(messagesRouter);
 
-export { http };
+export { http, io };
